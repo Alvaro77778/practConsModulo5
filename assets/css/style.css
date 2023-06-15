@@ -1,0 +1,77 @@
+.bgPropio{
+    background: linear-gradient(0deg, rgba(5, 0, 77, 0.822)13%, rgba(109, 131, 252, 0.562)100%);
+    padding-bottom: 200px;
+}
+
+.claseTexto{
+    background-image: linear-gradient(45deg,#02586e 0%,#8a061c 35%,#58036d 70%,#da790a 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: 600;
+   
+}
+/*CREAMOS EL CIRCULO QUE OCUPAREMOS EN LOS 3 DIV*/
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;  
+}
+/*ASIGNAMOS UN COLOR EL CUAL CAMBIARA SEGUN EL DIV, 
+ESTE ESTA VINCULADO CON EL CIRCULO*/
+.color0{
+   background-color: rgb(1, 49, 206); 
+}
+
+.color1{
+    background-color: rgb(141, 1, 206);
+}
+
+.color2{
+    background-color: rgb(206, 1, 121);
+}
+
+/*TAMAÑO DEL DIV CONTENEDOR DE LA CLASE CARD*/
+.ancho {
+    width: 400px;
+}
+/*TAMAÑO BORDES Y COLOR A LA CARD*/
+.card {
+    box-shadow: 0px 0px 5px #1b0066, 0px 0px 10px #ff9fdf;
+    
+}
+/*ESTILO PARA EL DIV CONTENEDOR DEL CIRCULO AMARILLO*/
+.circulito{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: rgb(158, 0, 179);
+    border: 1px solid black;
+}
+ /*LE DAMOS ESTILOS AL DIV QUE VA A A MOSTRAR SOLO UNA LINEA*/
+.linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000f64;
+    height: 100%;
+    width: 3px;
+}
+
+/*ACUMULAMOS LOS 3 ID PARA DARLE LAS MISMAS PROPIEDADES DE ESTILOS*/
+#rango1, #rango2, #rango3 {
+    cursor: pointer;
+    margin: 0% 25%;
+    width: 23%;
+    text-align: center;
+    font-weight:500;
+    color: rgb(255, 199, 177);
+    border-radius:8px;
+    
+    border: 1px solid rgb(49, 2, 71);
+    background: linear-gradient(0deg, rgba(12, 44, 131, 0.966)13%, rgba(219, 175, 248, 0.774)100%);
+}
