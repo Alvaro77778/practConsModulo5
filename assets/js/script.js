@@ -63,7 +63,6 @@ const consumoStarWars=(contador, x)=>{
         parrafo.setAttribute('class','card-text"')
         parrafo.innerHTML = `<b>Altura</b>: ${datoAltura} <br><b>Peso:</b> ${datoPeso}`
         cardTwo.appendChild(parrafo)
-
     })
 }
 //CREAMOS UN ARRAY QUE PARTE DE 0-4 CONTABILIZANDO 5 ELEMENTOS
